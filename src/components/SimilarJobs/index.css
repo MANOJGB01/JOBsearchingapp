@@ -1,0 +1,142 @@
+.each-job-item-containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  border-radius: 10px;
+  width: 28%;
+
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .each-job-item-containerr {
+    width: 100%;
+  }
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.comanylogo-postion-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 0px;
+}
+.logo-companys {
+  width: 58px;
+  height: 58px;
+  margin-right: 20px;
+}
+
+
+.position-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.postion-headings {
+  margin-top: 0px;
+  color: #f1f5f9;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.star-icon {
+  color: #fbbf24;
+  margin-right: 8px;
+  font-size: 18px;
+}
+.ratings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0px;
+}
+.rating-number {
+  font-size: 16px;
+  color: white;
+  font-family: 'Roboto';
+}
+.location-type-annum-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.loaction-employmentType-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.loaction-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+.loaction-icon {
+  color: #f8fafc;
+  margin-right: 8px;
+  font-size: 18px;
+}
+.loaction {
+  font-size: 16px;
+  color: white;
+  font-family: 'Roboto';
+}
+.employmentType-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8px;
+}
+.employmentType {
+  font-size: 16px;
+  color: white;
+  font-family: 'Roboto';
+}
+.type-icon {
+  color: #f8fafc;
+  margin-right: 8px;
+  font-size: 18px;
+}
+.annum {
+  font-size: 14px;
+  color: white;
+  font-family: 'Roboto';
+}
+.line3 {
+  border: 1px solid white;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.description-heading {
+  font-size: 17px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.description {
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 400;
+}

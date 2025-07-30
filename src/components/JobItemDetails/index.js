@@ -170,6 +170,11 @@ class JobItemDetails extends Component {
                 </a>
               </div>
               <p className="descriptions">{jobDescription}</p>
+              <img
+                src={companyLogoUrl}
+                alt="website logo"
+                className="website-logo"
+              />
             </div>
             <div className="skill-container">
               <h1 className="skill-heading">Skills</h1>

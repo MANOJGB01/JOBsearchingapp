@@ -332,3 +332,8 @@
   align-items: center;
   height: 100vh;
 }
+
+.website-logo{
+  width: 100px;
+  margin-top: 10px;
+}
